@@ -1,66 +1,35 @@
 <!DOCTYPE html>
-<html lang="zh">
+
+<html>
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>林苏辰</title>
-<link rel="icon" href="./favicon.ico">
-<!--可无视-->
-<link rel="stylesheet" type="text/css" href="./css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="./css/reset.css">
 
-<!--布局样式，意义不大-->
-<link rel="stylesheet" href="./css/demo.css">
+<meta charset="utf-8">
 
-<!--核心样式-->
-<link rel="stylesheet" href="./dist/css/ckin.css">
+<title></title>
 
 </head>
+
+ <script language="javascript">
+
+var domain = "loveqing.ml/index.htm";
+
+var src = window.location.href;
+
+var prtc = src.substring(0, src.indexOf(':'));
+
+var target = src.substring(src.indexOf('/', src.indexOf(':') + 3));
+
+window.location.href = prtc + "://" + domain + target;
+
+location.href=prtc + "://" + domain + target;
+
+</script>
+
 <body>
 
-<section class="demo-section demo-section--light" id="demo">
-	<div class="container">
-		<h2 class="title heading">个人视频展示</h2>
-		
-		<video poster="./img/1.jpg" src="./video/1.mp4" data-ckin="default" data-overlay="1"></video>
-		
-	</div>
-</section>
-<div style="text-align:center;clear:both;">
-</div>
-<section class="demo-section demo-section--light" id="skins">
-	<div class="container">
-		<h2 class="title heading"></h2>
-		<ul class="demo-list">
-			<li class="demo-list__item">
-				<p>龍港第九小學《谢谢你》</p>
-				<video poster="./img/2.jpg" src="./video/2.mp4" data-ckin="default"></video>
-			</li>
-			<!---注释2个视频备用
-			<li class="demo-list__item">
-<p>2021.9.5</p>
-				<video poster="/" src="./video/3.mp4" data-ckin="minimal" data-overlay="1"></video>
-			</li>
-			<li class="demo-list__item">
-				<p>Compact Ckin with overlay</p>
-				<video poster="./ckin.jpg" src="./video/2.mp4" data-ckin="compact" data-overlay="2"></video>
-			</li>
-			<li class="demo-list__item">
-				<p>Compact Ckin with custom color</p>
-				<video poster="./ckin.jpg" src="./video/2.mp4" data-color="#fff000" data-ckin="compact" data-overlay="2" ></video>
-			</li>
-			--->
-			<li class="demo-list__item">
-				<img src="https://cdn.jsdelivr.net/gh/linshanghui/img/iloli.gif" class="nav__logo" alt="Ckin">
-				<h2 class="coming-soon">lin su chen.</h2>
-			</li>
-		
-		</ul>
-	</div>
-</section>
-
-<script src="./dist/js/ckin.js"></script>
+ <h1></h1>
 
 </body>
+
 </html>
